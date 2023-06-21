@@ -9,10 +9,12 @@ This project is a portscan for internal ports from an SSRF
 3- Execute permission for the program: chmod +x portscan.sh
 
 4- Run the program using the following syntax: portscan.sh URL Directory+Vulnerable_Parameter --top-ports or --all-ports
+__________________________________________________________________________________
 
 Url: Is the url of the target, ex: http://192.168.0.1/
 
 Directory+Vulnerable_Parameter: Endpoint of one occurs the SSRF, ex: /?get_picture
 
 --top-ports: Will test the top 1000 internal ports
+
 --all-ports: Will test all internal ports
