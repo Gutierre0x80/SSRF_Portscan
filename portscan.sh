@@ -35,7 +35,7 @@ if [ "$3" == "--top-ports" ]; then
         echo -e "\033[0;34m Top ports mode \033[0m";
 	echo"";
 	for i in $(cat list);do
-        	echo "Testando porta: $i"
+        	echo "Testing port: $i"
         	curl $1$2=http://localhost:$i
 	done
 	echo"Scan Completed in Top Ports mode" 
@@ -45,7 +45,7 @@ elif [ "$3" == "--all-ports" ]; then
         echo -e "\033[0;34m All ports mode \033[0m";
 	echo "";
         for i in {1..65535};do
-                echo "Testando porta: $i"
+                echo "Testing port: $i"
                 curl $1$2=http://localhost:$i
         done
 	echo"Scan Completed in All Ports mode" 
