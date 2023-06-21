@@ -1,2 +1,3 @@
 # SSRF_Portscan
-ddd
+This project is a portscan for internal ports from an SSRF
+
