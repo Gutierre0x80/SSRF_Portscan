@@ -1,7 +1,5 @@
 #!/bin/bash
 
-verdeClaro="\033[1;32m"
-
 clear
 echo""
 echo -e "\033[1;32mWelcome to the SSRF -> Portscan\033[0m"
